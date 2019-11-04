@@ -4,12 +4,11 @@ import com.gdx.samples.ApplicationListenerSample;
 import com.gdx.samples.GdxModuleInfoSample;
 import com.gdx.samples.InputListeningSample;
 import com.gdx.samples.InputPollingSample;
+import com.gdx.samples.Main;
 import com.gdx.samples.ReflectionSample;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -20,7 +19,8 @@ public class SampleInfos {
             GdxModuleInfoSample.SAMPLE_INFO,
             InputListeningSample.SAMPLE_INFO,
             InputPollingSample.SAMPLE_INFO,
-            ReflectionSample.SAMPLE_INFO
+            ReflectionSample.SAMPLE_INFO,
+            Main.SAMPLE_INFO
     );
 
     /**
