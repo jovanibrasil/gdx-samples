@@ -3,9 +3,13 @@ package com.gdx.samples;
 import com.badlogic.gdx.Application;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.utils.Logger;
+import com.gdx.samples.common.SampleBase;
+import com.gdx.samples.common.SampleInfo;
 
 
-public class ApplicationListenerSample implements com.badlogic.gdx.ApplicationListener {
+public class ApplicationListenerSample extends SampleBase {
+
+	public static final SampleInfo SAMPLE_INFO = new SampleInfo(ApplicationListenerSample.class);
 
 	private static Logger log = new Logger(ApplicationListenerSample.class.getName(), Logger.DEBUG);
 	private boolean renderInterrupted = true;

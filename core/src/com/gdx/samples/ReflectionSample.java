@@ -3,9 +3,6 @@ package com.gdx.samples;
 import com.badlogic.gdx.Application;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.InputMultiplexer;
-import com.badlogic.gdx.InputProcessor;
-import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -16,11 +13,15 @@ import com.badlogic.gdx.utils.reflect.Field;
 import com.badlogic.gdx.utils.reflect.Method;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
+import com.gdx.samples.common.SampleBase;
+import com.gdx.samples.common.SampleInfo;
+import com.gdx.samples.utils.GdxUtils;
 
 import java.util.Arrays;
 
-public class ReflectionSample implements ApplicationListener {
+public class ReflectionSample extends SampleBase	 {
 
+	public static final SampleInfo SAMPLE_INFO = new SampleInfo(ReflectionSample.class);
 	private static final Logger log = new Logger(ReflectionSample.class.getName(), Logger.DEBUG);
 
 	private static final int MAX_MESSAGE_COUNT = 15;

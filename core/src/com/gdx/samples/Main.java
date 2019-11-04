@@ -1,12 +1,12 @@
 package com.gdx.samples;
 
 import com.badlogic.gdx.ApplicationAdapter;
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.gdx.samples.common.SampleBase;
+import com.gdx.samples.utils.GdxUtils;
 
-public class Main extends ApplicationAdapter {
+public class Main extends SampleBase {
 	SpriteBatch batch;
 	Texture img;
 	

@@ -4,16 +4,20 @@ import com.badlogic.gdx.Application;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
-import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.Logger;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
+import com.gdx.samples.common.SampleBase;
+import com.gdx.samples.common.SampleInfo;
+import com.gdx.samples.utils.GdxUtils;
 
-public class InputPollingSample implements ApplicationListener {
+public class InputPollingSample extends SampleBase {
 
+
+	public static final SampleInfo SAMPLE_INFO = new SampleInfo(InputPollingSample.class);
 	private static final Logger log = new Logger(InputPollingSample.class.getName(), Logger.DEBUG);
 
 	private OrthographicCamera camera;
