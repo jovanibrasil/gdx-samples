@@ -27,8 +27,8 @@ import javax.swing.WindowConstants;
 
 public class GdxSamplerLauncher extends JFrame {
 
-    private static final int WIDTH = 1280;
-    private static final int HEIGHT = 720;
+    private static final int WIDTH = 800;
+    private static final int HEIGHT = 600;
     private static final int CELL_WIDTH = 200;
     private static final int CANVAS_WIDTH = WIDTH - CELL_WIDTH;
 

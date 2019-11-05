@@ -40,7 +40,7 @@ public class InputPollingSample extends SampleBase {
 		camera = new OrthographicCamera();
 		viewport = new FitViewport(1080, 720, camera);
 		batch = new SpriteBatch();
-		font = new BitmapFont();//Gdx.files.internal("fonts/oswald-32.fnt"));
+		font = new BitmapFont(Gdx.files.internal("fonts/oswald-32.fnt"));
 
 	}
 
