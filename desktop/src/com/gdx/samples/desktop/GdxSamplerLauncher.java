@@ -33,7 +33,7 @@ public class GdxSamplerLauncher extends JFrame {
     private static final int CANVAS_WIDTH = WIDTH - CELL_WIDTH;
 
     private JList sampleList;
-    private JPanel controlPanel;
+        private JPanel controlPanel;
 
     // AWT - Abstract Window Toolkit
     private LwjglAWTCanvas lwjglAWTCanvas; // enables to embeed libgdx into java app

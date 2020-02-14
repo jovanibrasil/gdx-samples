@@ -1,14 +1,6 @@
 package com.gdx.samples.common;
 
-import com.gdx.samples.ApplicationListenerSample;
-import com.gdx.samples.GdxModuleInfoSample;
-import com.gdx.samples.InputListeningSample;
-import com.gdx.samples.InputPollingSample;
-import com.gdx.samples.Main;
-import com.gdx.samples.OrthographicCameraSample;
-import com.gdx.samples.ReflectionSample;
-import com.gdx.samples.SpriteBatchSample;
-import com.gdx.samples.ViewPortsSample;
+import com.gdx.samples.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -26,7 +18,10 @@ public class SampleInfos {
             Main.SAMPLE_INFO,
             OrthographicCameraSample.SAMPLE_INFO,
             ViewPortsSample.SAMPLE_INFO,
-            SpriteBatchSample.SAMPLE_INFO
+            SpriteBatchSample.SAMPLE_INFO,
+            ShapeRendererSample.SAMPLE_INFO,
+            Box2DSample.SAMPLE_INFO,
+            Box2DFruitsExample.SAMPLE_INFO
     );
 
     /**
